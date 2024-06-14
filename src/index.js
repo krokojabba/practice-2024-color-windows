@@ -1,0 +1,14 @@
+import  './styles.scss';
+import  'bootstrap';
+import './assets/logo.png';
+import './assets/color0.png';
+import './assets/color1.png';
+import './assets/color2.png';
+import './assets/color3.png';
+import './assets/color4.png';
+import './assets/color5.png';
+import './assets/color6.png';
+import './assets/window.png';
+import './assets/icon1.svg';
+import './assets/icon2.svg';
+import './assets/stars.svg';

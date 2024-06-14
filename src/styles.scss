@@ -1,0 +1,87 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$font-sizes: (
+    1: $h1-font-size * 1.5,
+    2: $h2-font-size,
+    3: $h3-font-size,
+    4: $h4-font-size,
+    5: $h5-font-size,
+    6: $h6-font-size,
+    18: 18px,
+    15: 15px,
+    13: 13px,
+    14: 14px,
+    12: 12px,
+    10: 10px,
+);
+
+/* $border-radius: 0px; */
+$nav-pills-border-radius: 0px;
+$nav-pills-link-active-bg: $cyan-600;
+$nav-link-color: $gray-700;
+$list-group-border-width: 0px;
+
+$form-check-input-width: 60px;
+$form-check-input-bg: transparent;
+$form-check-input-border: transparent;
+$form-check-input-focus-border: transparent;
+$form-check-input-focus-box-shadow: 0;
+$form-check-input-checked-bg-color: transparent;
+
+
+$form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>");
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+.link-primary:hover {
+  color: $orange-600 !important;
+  text-decoration-color: $orange-600 !important;
+}
+
+.link-primary {
+  color: $orange !important;
+  text-decoration-color: $orange !important;
+}
+
+.link-secondary:hover {
+  color: $orange !important;
+  text-decoration-color: $orange !important;
+}
+
+body {
+  background-color: #e1f0f8;
+}
+
+.check-input-bg {
+  width: 62px;
+  height: 59px;
+}
+
+.form-check-input {
+  margin-top: 0px;
+}
+
+.btn-primary {
+  background-color: $orange;
+  border-width: 0px;
+}
+
+.btn-primary:hover {
+  background-color: $orange-600;
+  border-width: 0px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  padding: 0.5em  0;
+}
+
+/* div {
+    border-style: solid;
+    border-width: 1px;
+} */
